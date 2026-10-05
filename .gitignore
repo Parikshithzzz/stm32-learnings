@@ -1,0 +1,27 @@
+# Build output (CubeIDE / Keil / IAR / Make)
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.su
+*.cyclo
+*.list
+
+# IDE / local settings
+.metadata/
+.settings/
+*.launch
+*.uvoptx
+*.uvguix.*
+Listings/
+Objects/
+RTE/
+
+# OS junk
+Thumbs.db
+.DS_Store**/Drivers/
