@@ -24,4 +24,5 @@ RTE/
 
 # OS junk
 Thumbs.db
-.DS_Store**/Drivers/
+.DS_Store
+**/Drivers/

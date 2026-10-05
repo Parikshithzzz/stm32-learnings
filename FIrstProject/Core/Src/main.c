@@ -107,6 +107,15 @@ HAL_TIM_Base_Start_IT(&htim2);
 //	  HAL_GPIO_TogglePin(GPIOPORTD, LED_GREEN_PIN);
 //	  HAL_Delay(500);
 
+	  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == GPIO_PIN_SET)
+	  {
+		  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);
+	  }
+	  else
+	  {
+		  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);
+	  }
+
   }
   /* USER CODE END 3 */
 }
